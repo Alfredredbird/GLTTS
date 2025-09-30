@@ -16,9 +16,9 @@ func main() {
     rand.Seed(time.Now().UnixNano())
 
     reader := bufio.NewReader(os.Stdin)
-    fmt.Println(`╔═╗╦  ╔╦╗╔╦╗
-║ ╦║   ║  ║ 
-╚═╝╩═╝ ╩  ╩ `)
+    fmt.Println(`╔═╗╦  ╔╦╗╔╦╗╔═╗
+║ ╦║   ║  ║ ╚═╗
+╚═╝╩═╝ ╩  ╩ ╚═╝ `)
     fmt.Println("Select difficulty: Beginner, Intermediate, Expert")
     fmt.Print("Enter choice: ")
     choice, _ := reader.ReadString('\n')
